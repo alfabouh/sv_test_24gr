@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>N1</title>
+    </head>
+    <body>
+		<ol>
+			<!-- 1 -->
+			<li> <a href="http://kubsu.ru/">КубГУ 1</a> </li>
+			<!-- 2 -->
+			<li> <a href="https://kubsu.ru/">КубГУ 2</a> </li>
+			<!-- 3 -->
+			<li> <a href="https://kubsu.ru/"> <img src="https://pazlyigra.ru/uploads/posts/2022-12/479679246.jpg" alt="Кот" style="width: 300px"></a> </li>
+			<!-- 4 -->
+			<li> <a href="demo.html">КубГУ 4</a> </li>
+			<!-- 5 -->
+			<li> <a href="index.html">Главная</a> </li>
+			<!-- 6 -->
+			<li> <a href="#s1">Ссылка на форму</a> </li>
+			<!-- 7 -->
+			<li> <a href="https://example.com?var1=v1&var2=v2&var3=v3">Ссылки 7</a> </li>
+			<!-- 8 -->
+			<li> <a href="https://moodle.kubsu.ru/mod/assign/view.php?id=16911">Ссылка id 8</a> </li>
+			<!-- 9 -->
+			<li> <a href="./index.html">Index Html 9</a> </li>
+			<!-- 10 -->
+			<li> <a href="./about/about.html">About Html 10</a> </li>
+			<!-- 11 -->
+			<li> <a href="../index_old.html">Page 11</a> </li>
+			<!-- 12 -->
+			<li> <a href="../../index_old2.html">Page 12</a> </li>
+			<!-- 13 -->
+			<li> <p>Ссылка в абзаце: <a href="./about/about.html">Клик</a> </p> </li>
+			<!-- 14 -->
+			<li> <a href="https://example.com#section">Ссылка на раздел на другом сайте</a> </li>
+			<!-- 15 -->
+			<li> 
+				<img src = "https://s1.namars.com/st4/upload/photos/2023/08/20230824_dW2cJFfLnx_thumb_0.jpeg" alt="Картинка" usemap="#image_m">
+					<map name="image_m">
+						<area shape="rect" coords="0,0,150,150" alt="Круг" href="../index_old.html">
+						<area shape="circle" coords="50,50,300" alt="Квадрат" href="./about/about.html">
+					</map>
+			</li>
+			<!-- 16 -->
+			<li> <a href="">Empty I</a> </li>
+			<!-- 17 -->
+			<li> <a>Empty II</a> </li>
+			<!-- 18 -->
+			<li> <a href="./index.html" rel="nofollow">NoFollow link</a> </li>
+			<!-- 19 -->
+			<li> <!--noindex--> <a href="./index.html" rel="nofollow"> NoIndex link</a> <!--/noindex--> </li>
+			<!-- 20 -->
+		</ol>
+		<ol>
+			<li> <a href="./index.html" title="Link I">L1</a></li>
+			<li> <a href="./index.html" title="Link II">L2</a></li>
+			<li> <a href="./index.html" title="Link III">L3</a></li>
+		</ol>
+		<!-- 21 -->
+		<a href="ftp://user:qwerty@example.ru/examples/text.txt">FTP типа</a>
+		<p> Форма </p>
+		<!-- 21 -->
+		<form id="s1">
+			<label for="name">ФИО:</label><br>
+			<input type="text" id="name" name="name">
+			<label for="mobile">Телефон:</label><br>
+			<input type="tel" id="mobile" name="tele">
+			<label for="mail">Почта:</label><br>
+			<input type="email" id="mail" name="mail">
+			<label for="bdate">Дата рождения:</label><br>
+			<input type="date" id="bdate" name="bdate">
+			<p>Пол:</p>
+			<input type="radio" id="ml" name="gender" value="ml">
+			<label for="ml">Паркет</label><br>
+			<input type="radio" id="fml" name="gender" value="fml">
+			<label for="fml">Ламинат</label><br>
+			<label for="lang">Любимый ЯП</label><br>
+			<select id="lang" name="pr-ln" multiple>
+				<option value="pascal">Pascal</option>
+				<option value="c">C</option>
+		  		<option value="cpp">C++</option>
+		  		<option value="javascript">JavaScript</option>
+		  		<option value="php">PHP</option>
+		  		<option value="python">Python</option>
+		  		<option value="java">Java</option>
+		  		<option value="haskell">Haskell</option>
+		  		<option value="clojure">Clojure</option>
+		  		<option value="prolog">Prolog</option>
+		  		<option value="scala">Scala</option>
+			</select><br>
+			<label for="bio">Биография</label><br>
+				<textarea id="bio" name="bio" rows=4></textarea><br>
+				<label for="check" id="contract">С контрактом ознакомлен</label>
+				<input type="checkbox" id="check" name="cbox" value="check">
+			<p>Подтвердить</p>
+			<input type="submit" value="Сохранить">
+		</form>
+        <footer>
+            <p>Конец</p>
+        </footer>
+    </body>
+</html>
